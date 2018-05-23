@@ -1,1 +1,1 @@
-Here java reasearch mini projects
+Here's java reasearch mini projects
