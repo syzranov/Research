@@ -1,0 +1,13 @@
+<schema elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://lanit.ru/fpsid/rest-pong-1.0" xmlns:tns="http://lanit.ru/fpsid/rest-pong-1.0">
+	<element name="pong">
+		<complexType>
+			<attribute name="value" type="long" use="required">
+				<annotation>
+					<documentation>В этом аттрибуте передается целочисленное значение,
+						которое увеличено сервером</documentation>
+				</annotation>
+			</attribute>
+		</complexType>
+	</element>
+</schema>
